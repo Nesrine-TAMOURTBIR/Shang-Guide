@@ -8,7 +8,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
-
+import com.example.projet_dam.PlaceAdapter;
 
 public class RestaurantsActivity extends AppCompatActivity {
     private ArrayList<Place> placesList;
@@ -60,7 +60,6 @@ public class RestaurantsActivity extends AppCompatActivity {
 الموقع بالعربية:
 "عنوان سري (يُكشف بعد الحجز)، شنغهاي، الصين"
 * */
-
 
 
         // 2)  Fu 1088 - 3 images
@@ -135,7 +134,7 @@ public class RestaurantsActivity extends AppCompatActivity {
         * */
 
         // 4)  Lü Bo Lang - 6 images
-        ArrayList<Integer> lubolangImages =new ArrayList<>();
+        ArrayList<Integer> lubolangImages = new ArrayList<>();
         lubolangImages.add(R.drawable.lubolang1);
         lubolangImages.add(R.drawable.lubolang2);
         lubolangImages.add(R.drawable.lubolang6);
@@ -169,7 +168,7 @@ public class RestaurantsActivity extends AppCompatActivity {
         * */
 
         // 5)  ROOF - 6 images
-        ArrayList<Integer> roofImages=new ArrayList<>();
+        ArrayList<Integer> roofImages = new ArrayList<>();
         roofImages.add(R.drawable.roof1);
         roofImages.add(R.drawable.roof2);
         roofImages.add(R.drawable.roof3);
@@ -200,7 +199,7 @@ public class RestaurantsActivity extends AppCompatActivity {
 */
 
         // 6)  Yi Cafe - 5 images
-        ArrayList<Integer> yicafeImages =new ArrayList<>();
+        ArrayList<Integer> yicafeImages = new ArrayList<>();
         yicafeImages.add(R.drawable.yicafe4);
         yicafeImages.add(R.drawable.yicafe5);
         yicafeImages.add(R.drawable.yicafe2);
@@ -234,7 +233,7 @@ public class RestaurantsActivity extends AppCompatActivity {
 
 
         // 7)  Xin Guang - 5 images
-        ArrayList<Integer> xinguangImages =new ArrayList<>();
+        ArrayList<Integer> xinguangImages = new ArrayList<>();
         xinguangImages.add(R.drawable.xin_guang7);
         xinguangImages.add(R.drawable.xin_guang6);
         xinguangImages.add(R.drawable.xin_guang2);
@@ -268,13 +267,13 @@ public class RestaurantsActivity extends AppCompatActivity {
 
 
         // 8)  SongYue Lou - 5 images
-        ArrayList<Integer> songyuelouImages =new ArrayList<>();
+        ArrayList<Integer> songyuelouImages = new ArrayList<>();
         songyuelouImages.add(R.drawable.songyuelou1);
         songyuelouImages.add(R.drawable.songyuelou2);
         songyuelouImages.add(R.drawable.songyuelou3);
         songyuelouImages.add(R.drawable.songyuelou4);
         songyuelouImages.add(R.drawable.songyuelou5);
-       // songyuelouImages.add(R.drawable.songyuelou6);
+        // songyuelouImages.add(R.drawable.songyuelou6);
         songyuelouImages.add(R.drawable.songyuelou7);
         songyuelouImages.add(R.drawable.songyuelou8);
         songyuelouImages.add(R.drawable.songyuelou9);
@@ -303,7 +302,7 @@ public class RestaurantsActivity extends AppCompatActivity {
                         "• إفطار الرهبان الصباحي - كعكات بخارية مع عصيدة أعشاب (6-9 صباحاً فقط)",
 
 
-        * */
+        *
 
         // Display the places in a ListView
         ArrayList<String> placeNames = new ArrayList<>();
@@ -342,3 +341,36 @@ public class RestaurantsActivity extends AppCompatActivity {
     }
 }
 
+
+         */
+// Display the places in a ListView
+        ListView listView = findViewById(R.id.listViewTouristPlaces);
+        PlaceAdapter adapter = new PlaceAdapter(this, placesList);
+        listView.setAdapter(adapter);
+
+// Handle clicks on list items
+        listView.setOnItemClickListener((parent, view, position, id) -> {
+            Place selectedPlace = placesList.get(position);
+
+            if (selectedPlace == null) {
+                System.out.println("Error: selectedPlace is null!");
+                return;
+            }
+
+            Intent intent = new Intent(RestaurantsActivity.this, DescriptionActivity.class);
+            intent.putExtra("name", selectedPlace.getName());
+            intent.putExtra("description", selectedPlace.getDescription());
+
+            // Ensure the images are not null
+            if (selectedPlace.getImageResourceIds() != null) {
+                intent.putIntegerArrayListExtra("images", selectedPlace.getImageResourceIds());
+            }
+
+            intent.putExtra("phone", selectedPlace.getPhone());
+            intent.putExtra("email", selectedPlace.getEmail());
+            intent.putExtra("location", selectedPlace.getLocation()); // Correctly set the location
+            intent.putExtra("website", selectedPlace.getWebsite()); // Add the website if available
+
+            startActivity(intent);
+        });
+    }}
