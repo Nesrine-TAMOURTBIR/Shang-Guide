@@ -39,13 +39,17 @@ public class DescriptionActivity extends AppCompatActivity {
         ImageSliderAdapter adapter = new ImageSliderAdapter(images);
         recyclerView.setAdapter(adapter);
 
-        // Set text content
+
+
+        // Set text content with string resources
         textViewName.setText(name);
         textViewDescription.setText(description);
-        textViewPhone.setText("Phone: " + phone);
-        textViewEmail.setText("Email: " + email);
-        textViewLocation.setText("Location: " + location);
-        textViewWebsite.setText("Website: " + website);
+
+// Use string resources for the labels to switch between languages
+        textViewPhone.setText(getString(R.string.phone) + ": " + phone);
+        textViewEmail.setText(getString(R.string.email) + ": " + email);
+        textViewLocation.setText(getString(R.string.location) + ": " + location);
+        textViewWebsite.setText(getString(R.string.website) + ": " + website);
 
         // Add click listener for phone number
         textViewPhone.setOnClickListener(v -> {

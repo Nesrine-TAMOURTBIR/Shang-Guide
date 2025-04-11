@@ -1,3 +1,171 @@
 <resources>
-    <string name="app_name">projet_DAM</string>
+    <string name="app_name" translatable="false">projet_DAM</string>
+    <string name="change_language">en</string>
+
+
+        <string name="location">Location</string>
+        <string name="phone">Phone</string>
+        <string name="email">Email</string>
+        <string name="website">Website</string>
+
+
+
+        <string name="ultraviolet_title">Ultraviolet by Paul Pairet</string>
+        <string name="ultraviolet_description">A groundbreaking 3-Michelin-starred dining experience that redefines gastronomy through multi-sensory immersion. This exclusive restaurant offers:
+
+A 20-course avant-garde tasting menu curated by chef Paul Pairet
+
+Synchronized projections, soundscapes, and scents that evolve with each dish
+
+Only 10 seats per night in a hidden, futuristic dining pod
+
+Interactive storytelling that blends food, technology, and art
+
+Opened in 2012, Ultraviolet is a pilgrimage for food enthusiasts, combining molecular gastronomy with theatrical flair. Guests are transported to an undisclosed location where every element—from the custom-made tableware to the ambient temperature—is meticulously designed to amplify the culinary journey. This is not just a meal, but a symphony for the senses that captures Shanghai&lt;s innovative spirit.</string>
+
+        <string name="ultraviolet_address">Secret location (disclosed upon booking), Shanghai</string>
+
+
+        <string name="fu1088_title">Fu 1088</string>
+        <string name="fu1088_description">A Michelin-starred sanctuary of classic Shanghainese cuisine housed in a meticulously restored 1930s villa. This elegant restaurant offers:
+
+Exquisitely slow-braised pork belly, a signature Shanghainese delicacy
+
+Drunken chicken marinated in premium Shaoxing wine
+
+Private dining rooms with Republican-era Shanghai charm
+
+Seasonal dishes preserving authentic local flavors
+
+Established in 2006, Fu 1088 transports diners to old Shanghai through its architecture and culinary craftsmanship. Each dish tells a story of the city&lt;s rich gastronomic heritage, served in an atmosphere of understated luxury that makes it a favorite among discerning food lovers.</string>
+
+        <string name="fu1088_address">375 Zhenning Road, Changning District, Shanghai</string>
+
+        <string name="polux_title">Polux by Paul Pairet</string>
+        <string name="polux_description">A chic Parisian-style bistro from renowned chef Paul Pairet, offering modern French comfort food with a playful twist. This stylish venue features:
+
+True French bistro classics reimagined with chef Pairets signature creativity
+
+The famous Mimosa Egg - a signature starter of egg, tuna and mayonnaise
+
+Casual yet sophisticated ambiance with indoor and terrace seating
+
+Artisanal bread baked fresh throughout the day
+
+Opened in 2017, Polux brings a slice of Parisian café culture to Shanghai&lt;s Xintiandi district. With its zinc bar, checkered floors and effortless elegance, it&lt;s become a favorite haunt for both expats and locals seeking authentic French flavors in a relaxed setting.</string>
+
+        <string name="polux_address">No. 5-7, Lane 181 Taicang Road, Xintiandi, Shanghai</string>
+
+
+        <string name="lubolang_title">Lü Bo Lang</string>
+        <string name="lubolang_description">A historic gem near Yu Garden offering traditional Shanghainese dim sum and banquet fare. This time-honored restaurant features:
+
+Classic xiaolongbao soup dumplings and pan-fried buns
+
+Ornate Ming-style architecture and decor
+
+Popular with dignitaries and visiting heads of state
+
+Authentic local dining experience
+
+Founded in 1978, Lü Bo Lang is a cultural institution renowned for its preservation of Shanghainese flavors and ambiance. Nestled near the scenic Yu Garden, it provides a nostalgic culinary journey into Shanghai’s past, perfect for tourists and locals alike.</string>
+        <string name="lubolang_address">115 Yuyuan Road, Huangpu District, Shanghai</string>
+
+        <string name="roof_title">ROOF</string>
+        <string name="roof_description">A sophisticated rooftop restaurant and lounge offering panoramic views of the Bund and Huangpu River. This chic venue delivers:
+
+Upscale Mediterranean and Asian-fusion cuisine
+
+Signature cocktails and curated wine list
+
+Stylish ambiance with indoor and outdoor seating
+
+Evening DJ sets and weekend brunches
+
+Perched atop the EDITION Hotel, ROOF is a favorite for date nights, celebrations, and elegant evenings in the heart of Shanghai. The breathtaking skyline backdrop makes every meal unforgettable.</string>
+        <string name="roof_address">199 Nanjing East Road, 29th Floor, Shanghai EDITION Hotel</string>
+
+        <string name="yicafe_title">Yi Cafe</string>
+        <string name="yicafe_description">A vibrant all-day dining venue at the Shangri-La Hotel, offering a global culinary journey across multiple live-cooking stations. Yi Cafe offers:
+
+Asian, European, and Middle Eastern cuisine prepared on the spot
+
+Lavish dessert station and fresh seafood bar
+
+Family-friendly atmosphere and attentive service
+
+International buffet with seasonal promotions
+
+Yi Cafe is a favorite among hotel guests and locals alike for its variety, quality, and welcoming environment. It&lt;s ideal for both casual meals and special occasions.</string>
+        <string name="yicafe_address">33 Fu Cheng Road, Pudong, within the Shangri-La Hotel, Shanghai</string>
+
+
+        <string name="xinguang_title">Xin Guang Restaurant</string>
+        <string name="xinguang_description">A historic Shanghainese institution since 1936, preserving pre-revolutionary flavors in its original Art Deco setting. Famous for:
+
+• Beggar s Chicken - clay-baked whole chicken with secret spice blend
+
+• Lion s Head Meatballs - giant pork meatballs in brown sauce
+
+• Vintage 1930s elevator still in operation
+
+• Sixth-floor views of Nanjing Road pedestrian street
+
+• Traditional &lt;Ben Bang&lt; breakfast items until 10:30 AM</string>
+        <string name="xinguang_address">512 Tianjin Rd, Huangpu, Shanghai</string>
+
+        <string name="songyuelou_title">Songyuelou</string>
+        <string name="songyuelou_description">Founded in 1910, this Buddhist vegetarian restaurant near City God Temple preserves Qing Dynasty culinary traditions. Renowned for:
+
+• Vegetarian &quot;Gooss&quot; - 20-layer tofu skin marinated in secret sauce (¥68)
+
+• Mushroom &quot;Eel&quot; - King oyster mushrooms carved to mimic river eel (¥88)
+
+• Century-Old Mooncakes - Made with temple recipe since 1910 (¥28/piece)
+
+• Original Wooden Courtyard - With carved Buddhist motifs and stone well
+
+• Morning Monk&lt;s Breakfast - Steamed buns with herbal congee (6-9AM only)</string>
+        <string name="songyuelou_address">99 Jiujiaochang Rd, Huangpu, Shanghai</string>
+
+
+
+
+
+
+
+    <string name="oriental_pearl_tower_name">Oriental Pearl Tower</string>
+    <string name="oriental_pearl_tower_description">Rising 468 meters over Shanghai, the Oriental Pearl Tower amazes visitors with its unique pearl-inspired spherical design. This architectural marvel offers breathtaking panoramic views from multiple observation decks, a revolving restaurant with ever-changing city vistas, an immersive history museum showcasing Shanghai s transformation, and spectacular light shows that illuminate the night sky. Completed in 1994, this engineering masterpiece remains one of China s most visited attractions, blending cutting-edge design with unforgettable experiences. Whether you re admiring the Huangpu River from its glass-floored deck or watching the city lights dance across its futuristic facade, the tower captures the vibrant spirit of modern Shanghai.</string>
+    <string name="oriental_pearl_tower_address">1 Century Avenue, Pudong, Shanghai</string>
+
+    <string name="the_bund_name">The Bund</string>
+    <string name="the_bund_description">Stretching along the Huangpu River, The Bund is Shanghai s most iconic historical landmark, showcasing a stunning contrast between old and new. This magnificent waterfront avenue features colonial-era architecture with 52 historic buildings in Gothic, Baroque, and Neoclassical styles, panoramic views of Pudong s futuristic skyline across the river, vibrant atmosphere day and night, perfect for leisurely strolls, and rich history as the financial center of 1920s Shanghai. By day, admire the architectural details of former banks and trading houses. At night, witness the spectacular light show as Pudong s skyscrapers illuminate the river. The Bund perfectly encapsulates Shanghai s journey from treaty port to global metropolis.</string>
+    <string name="the_bund_address">Zhongshan East 1st Road, Huangpu District, Shanghai</string>
+
+    <string name="shanghai_museum_name">Shanghai Museum</string>
+    <string name="shanghai_museum_description">As one of China s finest museums, the Shanghai Museum houses a world-class collection of ancient Chinese art and artifacts. Key highlights include 120,000+ artifacts across 11 galleries showcasing 5,000 years of Chinese history, renowned collections of ancient bronzes, ceramics, calligraphy, and jade, the iconic round dome and square base design symbolizing ancient Chinese cosmology, and free admission with excellent English explanations and audio guides. Spend hours admiring treasures like the 2,000-year-old bronze mirrors or delicate Ming Dynasty porcelain. The museum s modern exhibition spaces make ancient art accessible through interactive displays and thematic organization from prehistoric times to the Qing Dynasty.</string>
+    <string name="shanghai_museum_address">201 Renmin Avenue, Huangpu District, Shanghai</string>
+
+    <string name="zhujiajiao_water_town_name">Zhujiajiao Water Town</string>
+    <string name="zhujiajiao_water_town_description">Dubbed the  Venice of Shanghai , this 1,700-year-old ancient water town charms visitors with a network of canals crossed by 36 stone bridges, including the iconic 5-arch Fangsheng Bridge, well-preserved Ming and Qing dynasty architecture along the waterways, traditional wooden gondolas (called  wupeng ) for romantic canal rides, authentic street food like bamboo-wrapped pork and sweet rice cakes, and historic sites like Baozhu Temple (built 1580). Morning mist over the canals and red lanterns at dusk create picture-perfect moments. The slower pace here offers a peaceful escape from Shanghai s urban bustle.</string>
+    <string name="zhujiajiao_water_town_address">Qingpu District, Shanghai (50km from city center)</string>
+
+    <string name="jingan_temple_name">Jing an Temple</string>
+    <string name="jingan_temple_description">A stunning golden oasis amidst Shanghai s skyscrapers, this 780-year-old Buddhist temple features the magnificent 8.8-ton pure silver Buddha statue in the Mahavira Hall, three golden main halls with exquisite Song Dynasty architecture, the peaceful Jade Buddha Chamber with rare white jade statues, an underground palace with ancient relics beneath the temple, and daily chanting ceremonies (6:00 AM - 3:00 PM). The temple s golden roofs glow against modern towers like the Jing an Kerry Centre. Burn incense at the giant bronze furnace and experience spiritual calm in the city s heart.</string>
+    <string name="jingan_temple_address">1686 West Nanjing Road, Jing an District, Shanghai</string>
+
+    <string name="shanghai_disneyland_name">Shanghai Disneyland</string>
+    <string name="shanghai_disneyland_description">The first Disney resort in mainland China brings magic to life with 6 uniquely themed lands including the largest Disney Castle ever built, exclusive attractions like TRON Lightcycle Power Run (world s fastest Disney coaster), spectacular shows:  Tarzan: Call of the Jungle  and nighttime  Ignite the Dream  projection show, character meet-and-greets with Mickey in traditional Chinese costumes, and authentic Chinese cuisine at Barbossa s Bounty and other themed restaurants.</string>
+    <string name="shanghai_disneyland_address">Chuansha New Town, Pudong District, Shanghai</string>
+
+    <string name="tianzifang_name">Tianzifang</string>
+    <string name="tianzifang_description">A bohemian labyrinth where old Shanghai meets creative modernity: converted 1930s shikumen (stone-gate) factories and lane houses, 200+ independent artist studios, craft shops, and design boutiques, hidden cafes in airwell courtyards and rooftop terraces, authentic local eateries serving shengjianbao (pan-fried buns), and weekly art exhibitions and live music events. Wander through narrow alleys draped with laundry and paper lanterns - every corner reveals Instagram-worthy vignettes of artistic Shanghai.</string>
+    <string name="tianzifang_address">No. 210 Taikang Road, Huangpu District, Shanghai</string>
+
+
+
+
+
+
+
 </resources>

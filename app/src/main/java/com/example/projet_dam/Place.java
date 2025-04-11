@@ -53,6 +53,6 @@ public class Place {
     public ArrayList<Integer> getImageResourceIds() { return imageResourceIds; }
     public String getPhone() { return phone; }
     public String getEmail() { return email; }
-    public String getLocation() { return location; }  // Getter for location
-    public String getWebsite() { return website; }    // Getter for website
+    public String getLocation() { return location; }
+    public String getWebsite() { return website; }
 }
