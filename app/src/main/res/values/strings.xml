@@ -1,3 +1,5 @@
+
+
 <resources>
     <string name="app_name" translatable="false">projet_DAM</string>
     <string name="change_language">en</string>
@@ -162,10 +164,75 @@ Yi Cafe is a favorite among hotel guests and locals alike for its variety, quali
     <string name="tianzifang_description">A bohemian labyrinth where old Shanghai meets creative modernity: converted 1930s shikumen (stone-gate) factories and lane houses, 200+ independent artist studios, craft shops, and design boutiques, hidden cafes in airwell courtyards and rooftop terraces, authentic local eateries serving shengjianbao (pan-fried buns), and weekly art exhibitions and live music events. Wander through narrow alleys draped with laundry and paper lanterns - every corner reveals Instagram-worthy vignettes of artistic Shanghai.</string>
     <string name="tianzifang_address">No. 210 Taikang Road, Huangpu District, Shanghai</string>
 
+//hotel
+
+    <string name="peninsula_name">The Peninsula Shanghai</string>
+    <string name="peninsula_description">A luxurious hotel blending Art Deco elegance with modern amenities, offering stunning views of the Bund and Huangpu River.</string>
+    <string name="peninsula_address">No. 32 Zhongshan East First Road, Shanghai</string>
+
+    <string name="puli_name">The PuLi Hotel and Spa</string>
+    <string name="puli_description">A serene urban resort offering a blend of contemporary design and traditional Chinese elements, featuring a Michelin-starred restaurant.</string>
+    <string name="puli_address">1 Changde Road, Jing an District, Shanghai</string>
+
+    <string name="urbn_name">URBN Hotel Shanghai</string>
+    <string name="urbn_description">China s first carbon-neutral hotel, featuring eco-friendly design with recycled materials and a chic, minimalist aesthetic.</string>
+    <string name="urbn_address">183 Jiaozhou Road, Jing an District, Shanghai</string>
 
 
+    <string name="waterhouse_name">The Water House at South Bund</string>
+    <string name="waterhouse_description">A boutique hotel set in a renovated 1930s warehouse, offering unique architecture and designer furnishings by renowned artists.</string>
+    <string name="waterhouse_address">1-3 Maojiayuan Road, Huangpu District, Shanghai</string>
+
+    <string name="radisson_name">Radisson Blu Hotel Shanghai New World</string>
+    <string name="radisson_description">A towering hotel featuring a revolving restaurant on the 45th floor and a glass-domed bar with panoramic city views.</string>
+    <string name="radisson_address">88 Nanjing Road West, Huangpu District, Shanghai</string>
+
+    <string name="wonderland_name">InterContinental Shanghai Wonderland</string>
+    <string name="wonderland_description">A unique hotel built into an abandoned quarry, featuring underwater suites and stunning views of the surrounding cliffs.</string>
+    <string name="wonderland_address">5888 Chenhua Road, Songjiang District, Shanghai</string>
+
+    <string name="fairmont_name">Fairmont Peace Hotel</string>
+    <string name="fairmont_description">An iconic hotel with Art Deco design, known for its rich history and the famous Jazz Bar featuring live performances.</string>
+    <string name="fairmont_address">20 Nanjing Road East, Huangpu District, Shanghai</string>
+
+    //garden
+    <string name="yu_garden_name">Yu Garden</string>
+    <string name="yu_garden_description">A classical Chinese garden built in 1577, featuring pavilions, rockeries, and ponds, reflecting the exquisite design of the Ming dynasty.</string>
+    <string name="yu_garden_address">No. 218 Anren Street, Huangpu District, Shanghai</string>
+
+    <string name="guyi_garden_name">Guyi Garden</string>
+    <string name="guyi_garden_description">A Ming dynasty garden known for its bamboo groves, lotus ponds, and traditional architecture, offering a peaceful retreat from the city.</string>
+    <string name="guyi_garden_address">No. 218 Huyi Highway, Jiading District, Shanghai</string>
+
+    <string name="qiuxia_garden_name">Qiuxia Garden</string>
+    <string name="qiuxia_garden_description">A historic garden combining four ancient private gardens, showcasing classical landscaping and seasonal maple trees.</string>
+    <string name="qiuxia_garden_address">No. 314 East Main Street, Jiading District, Shanghai</string>
+
+    <string name="zuibaichi_garden_name">Zuibaichi Garden</string>
+    <string name="zuibaichi_garden_description">One of Shanghai s oldest gardens, dating back to the Song dynasty, featuring traditional pavilions and serene water features.</string>
+    <string name="zuibaichi_garden_address">No. 64 Renmin Road, Songjiang District, Shanghai</string>
+
+    <string name="shanghai_botanical_garden_name">Shanghai Botanical Garden</string>
+    <string name="shanghai_botanical_garden_description">The largest municipal botanical garden in China, home to diverse plant collections, greenhouses, and a renowned penjing garden.</string>
+    <string name="shanghai_botanical_garden_address">No. 1111 Longwu Road, Xuhui District, Shanghai</string>
+
+    <string name="gucheng_park_name">Gucheng Park</string>
+    <string name="gucheng_park_description">A modern park established in 2002, featuring a sunken plaza, bamboo forest, and remnants of Shanghai s old city walls.</string>
+    <string name="gucheng_park_address">No. 333 Renmin Road, Huangpu District, Shanghai</string>
+
+    <string name="zhongshan_park_name">Zhongshan Park</string>
+    <string name="zhongshan_park_description">A spacious urban park offering landscaped gardens, a lake, and recreational facilities, popular among locals for leisure activities.</string>
+    <string name="zhongshan_park_address">No. 780 Changning Road, Changning District, Shanghai</string>
+
+    <string name="luxun_park_name">Lu Xun Park</string>
+    <string name="luxun_park_description">A cultural park named after the famous writer Lu Xun, featuring traditional gardens, a museum, and a tranquil lake.</string>
+    <string name="luxun_park_address">No. 2288 Sichuan North Road, Hongkou District, Shanghai</string>
 
 
+    <string name="restaurants">Restaurants</string>
+    <string name="hotels">Hotels</string>
+    <string name="gardens">Gardens</string>
+    <string name="tourist_places">Tourist Places</string>
 
 
 </resources>

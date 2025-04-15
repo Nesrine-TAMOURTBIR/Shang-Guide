@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:id="@+id/language_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_gravity="end">
+
+        <ImageView
+            android:id="@+id/icon_language"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_language"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/text_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/change_language"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+
+
+
+
+    <ListView
+        android:id="@+id/listViewTouristPlaces"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"/>
+</LinearLayout>
