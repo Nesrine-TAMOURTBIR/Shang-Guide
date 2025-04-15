@@ -14,17 +14,18 @@
         android:textSize="24sp"
         android:textStyle="bold"
         android:textColor="@android:color/white"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="120dp" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="20dp"/>
 
     <TextView
         android:id="@+id/subText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Experience the world's best\nadventure around the world\nwith us"
+        android:text="Sahnoune Nadjoua Tamourtbir Nesrine\n\nExperience the best adventure in Shanghai \ndiscover its stunning gardens,\n vibrant streets, and rich culture with us. \nLet the city surprise you!"
         android:textColor="@android:color/white"
         android:layout_below="@id/titleText"
-        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="8dp" />
 
     <Button

@@ -193,35 +193,35 @@
     <string name="fairmont_address">20 طريق نانجينغ الشرقي، حي هوانغبو، شنغهاي</string>
 
 //garden
-    <string name="yu_garden_name">Yu Garden</string>
+    <string name="yu_garden_name">حديقة يو</string>
     <string name="yu_garden_description">حديقة صينية كلاسيكية بُنيت عام 1577، تتميز بالأجنحة والتلال الصخرية والبرك، وتعكس التصميم الرائع لعصر مينغ.</string>
     <string name="yu_garden_address">رقم 218 شارع أنرن، حي هوانغبو، شنغهاي</string>
 
-    <string name="guyi_garden_name">Guyi Garden</string>
+    <string name="guyi_garden_name">حديقة قويي</string>
     <string name="guyi_garden_description">حديقة من عهد مينغ معروفة بغابات الخيزران وبرك اللوتس والعمارة التقليدية، وتوفر ملاذًا هادئًا بعيدًا عن المدينة.</string>
     <string name="guyi_garden_address">رقم 218 طريق هوي، حي جيايدينغ، شنغهاي</string>
 
-    <string name="qiuxia_garden_name">Qiuxia Garden</string>
+    <string name="qiuxia_garden_name">حديقة تشيوشيا</string>
     <string name="qiuxia_garden_description">حديقة تاريخية تجمع بين أربع حدائق خاصة قديمة، وتعرض مناظر طبيعية كلاسيكية وأشجار القيقب الموسمية.</string>
     <string name="qiuxia_garden_address">رقم 314 شارع الشرق الرئيسي، حي جيايدينغ، شنغهاي</string>
 
-    <string name="zuibaichi_garden_name">Zuibaichi Garden</string>
+    <string name="zuibaichi_garden_name">حديقة زويبايشي</string>
     <string name="zuibaichi_garden_description">واحدة من أقدم حدائق شنغهاي، تعود إلى عهد سونغ، وتتميز بالأجنحة التقليدية والمعالم المائية الهادئة.</string>
     <string name="zuibaichi_garden_address">رقم 64 طريق رينمين، حي سونغجيانغ، شنغهاي</string>
 
-    <string name="shanghai_botanical_garden_name">Shanghai Botanical Garden</string>
+    <string name="shanghai_botanical_garden_name">الحديقة النباتية في شنغهاي</string>
     <string name="shanghai_botanical_garden_description">أكبر حديقة نباتية بلدية في الصين، تضم مجموعات نباتية متنوعة، وصوبات زجاجية، وحديقة بنجينغ مشهورة.</string>
     <string name="shanghai_botanical_garden_address">رقم 1111 طريق لونغوو، حي شيوهوي، شنغهاي</string>
 
-    <string name="gucheng_park_name">Gucheng Park</string>
+    <string name="gucheng_park_name">حديقة غوتشينغ</string>
     <string name="gucheng_park_description">حديقة حديثة تأسست عام 2002، تضم ساحة غارقة، وغابة خيزران، وبقايا من أسوار المدينة القديمة في شنغهاي.</string>
     <string name="gucheng_park_address">رقم 333 طريق رينمين، حي هوانغبو، شنغهاي</string>
 
-    <string name="zhongshan_park_name">Zhongshan Park</string>
+    <string name="zhongshan_park_name">حديقة تشونغشان</string>
     <string name="zhongshan_park_description">حديقة حضرية واسعة تقدم حدائق منسقة، وبحيرة، ومرافق ترفيهية، وتُعد وجهة شهيرة بين السكان المحليين للأنشطة الترفيهية.</string>
     <string name="zhongshan_park_address">رقم 780 طريق تشانغنينغ، حي تشانغنينغ، شنغهاي</string>
 
-    <string name="luxun_park_name">Lu Xun Park</string>
+    <string name="luxun_park_name">حديقة لو شون</string>
     <string name="luxun_park_description">حديقة ثقافية سُميت باسم الكاتب الشهير لو شون، وتضم حدائق تقليدية، ومتحفًا، وبحيرة هادئة.</string>
     <string name="luxun_park_address">رقم 2288 طريق سيتشوان الشمالي، حي هونغكو، شنغهاي</string>
 
