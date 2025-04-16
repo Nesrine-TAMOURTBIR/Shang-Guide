@@ -53,23 +53,6 @@ public class DescriptionActivity extends AppCompatActivity {
         textViewDescription.setText(description);
 
 
-        LinearLayout languageSwitch = findViewById(R.id.language_switch);
-        languageSwitch.setOnClickListener(v -> {
-            String currentLang = LocaleHelper.getLanguage(this);
-            String newLang = currentLang.equals("en") ? "ar" : "en";
-            LocaleHelper.setLocale(this, newLang);
-            LocaleHelper.restartActivity(this, DescriptionActivity.class);
-        });
-
-
-
-        // Adjust layout direction based on language
-        String currentLang = LocaleHelper.getLanguage(this);
-        if (currentLang.equals("ar")) {
-            languageSwitch.setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
-        } else {
-            languageSwitch.setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
-        }
 
 
 // Use string resources for the labels to switch between languages
