@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.projet_dam"
+    namespace = "com.example.Shang_Guide"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.projet_dam"
+        applicationId = "com.example.Shang_Guide"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

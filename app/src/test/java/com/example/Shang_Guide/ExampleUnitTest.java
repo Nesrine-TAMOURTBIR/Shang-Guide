@@ -1,4 +1,4 @@
-package com.example.projet_dam;
+package com.example.Shang_Guide;
 
 import org.junit.Test;
 

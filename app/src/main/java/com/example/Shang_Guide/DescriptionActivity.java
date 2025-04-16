@@ -1,15 +1,22 @@
-package com.example.projet_dam;
+package com.example.Shang_Guide;
 
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.Shang_Guide.R;
+
 import java.util.ArrayList;
 
 public class DescriptionActivity extends AppCompatActivity {
+
+    private Place currentPlace;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +51,26 @@ public class DescriptionActivity extends AppCompatActivity {
         // Set text content with string resources
         textViewName.setText(name);
         textViewDescription.setText(description);
+
+
+        LinearLayout languageSwitch = findViewById(R.id.language_switch);
+        languageSwitch.setOnClickListener(v -> {
+            String currentLang = LocaleHelper.getLanguage(this);
+            String newLang = currentLang.equals("en") ? "ar" : "en";
+            LocaleHelper.setLocale(this, newLang);
+            LocaleHelper.restartActivity(this, DescriptionActivity.class);
+        });
+
+
+
+        // Adjust layout direction based on language
+        String currentLang = LocaleHelper.getLanguage(this);
+        if (currentLang.equals("ar")) {
+            languageSwitch.setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
+        } else {
+            languageSwitch.setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+        }
+
 
 // Use string resources for the labels to switch between languages
         textViewPhone.setText(getString(R.string.phone) + ": " + phone);

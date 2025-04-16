@@ -1,10 +1,9 @@
-package com.example.projet_dam;
+package com.example.Shang_Guide;
 
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,15 +16,15 @@ public class TouristPlacesActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tourist_places);
+        setContentView(R.layout.activity_list_places);
 
 
         LinearLayout languageSwitch = findViewById(R.id.language_switch);
         languageSwitch.setOnClickListener(v -> {
             String currentLang = LocaleHelper.getLanguage(this);
-            String newLang = currentLang.equals("en") ? "ar" : "en";  // التبديل بين العربية والإنجليزية
+            String newLang = currentLang.equals("en") ? "ar" : "en";
             LocaleHelper.setLocale(this, newLang);
-            LocaleHelper.restartActivity(this, TouristPlacesActivity.class);  // إعادة تشغيل النشاط لتطبيق التغيير
+            LocaleHelper.restartActivity(this, TouristPlacesActivity.class);
         });
 
 
@@ -101,12 +100,43 @@ public class TouristPlacesActivity extends AppCompatActivity {
                 "www.orientalpearltower.com"
         ));
 
+        placesList.add(new Place(
+                getString(R.string.jingan_temple_name),
+                getString(R.string.jingan_temple_description),
+                jinganTempleImages,
+                "+86 21 6256 3666",
+                "info@jingantemple.com",
+                getString(R.string.jingan_temple_address),
+                "www.jingantemple.com"
+        ));
+
+        placesList.add(new Place(
+                getString(R.string.zhujiajiao_water_town_name),
+                getString(R.string.zhujiajiao_water_town_description),
+                zhujiajiaoWaterTownImages,
+                "+86 21 5924 0088",
+                "zhujiajiaoWaterTown@gmail.com",
+                getString(R.string.zhujiajiao_water_town_address),
+                "zhujiajiaoWaterTown.com"
+        ));
+
+        // Add places to the list with multilingual support
+        placesList.add(new Place(
+                getString(R.string.tianzifang_name),
+                getString(R.string.tianzifang_description),
+                tianzifangImages,
+                "", // No central phone
+                "",
+                getString(R.string.tianzifang_address),
+                ""
+        ));
+
 
         // Add places to the list with multilingual support
         placesList.add(new Place(
                 getString(R.string.the_bund_name),
                 getString(R.string.the_bund_description),
-                shanghaiMuseumImages,
+                theBundImages,
                 "+86 21 6321 5757",
                 "info@shanghaitour.com",
                 getString(R.string.the_bund_address),
@@ -124,27 +154,11 @@ public class TouristPlacesActivity extends AppCompatActivity {
                 "www.shanghaimuseum.net"
         ));
 
-        placesList.add(new Place(
-                getString(R.string.zhujiajiao_water_town_name),
-                getString(R.string.zhujiajiao_water_town_description),
-                shanghaiDisneylandImages,
-                "+86 21 5924 0088",
-                "zhujiajiaoWaterTown@gmail.com",
-                getString(R.string.zhujiajiao_water_town_address),
-                "zhujiajiaoWaterTown.com"
-        ));
+
 
 
 // Add places to the list with multilingual support
-        placesList.add(new Place(
-                getString(R.string.jingan_temple_name),
-                getString(R.string.jingan_temple_description),
-                jinganTempleImages,
-                "+86 21 6256 3666",
-                "info@jingantemple.com",
-                getString(R.string.jingan_temple_address),
-                "www.jingantemple.com"
-        ));
+
 
         placesList.add(new Place(
                 getString(R.string.shanghai_disneyland_name),
@@ -156,19 +170,10 @@ public class TouristPlacesActivity extends AppCompatActivity {
                 "www.shanghaidisneyresort.com"
         ));
 
-// Add places to the list with multilingual support
-        placesList.add(new Place(
-                getString(R.string.tianzifang_name),
-                getString(R.string.tianzifang_description),
-                tianzifangImages,
-                "", // No central phone
-                "",
-                getString(R.string.tianzifang_address),
-                ""
-        ));
 
 
-        // Display the places in a ListView
+
+// Display the places in a ListView
         ListView listView = findViewById(R.id.listViewTouristPlaces);
         PlaceAdapter adapter = new PlaceAdapter(this, placesList);
         listView.setAdapter(adapter);

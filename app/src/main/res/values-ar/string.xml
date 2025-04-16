@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">دليل شانغهاي</string>
     <string name="change_language">ع</string>
-
-
 
 
     <string name="location">الموقع</string>
     <string name="phone">الهاتف</string>
     <string name="email">البريد الإلكتروني</string>
     <string name="website">الموقع الإلكتروني</string>
+    <string name="no_name">لا يوجد اسم متاح</string>
+    <string name="no_description">لا يوجد وصف متاح</string>
+    <string name="no_phone">لا يوجد هاتف متاح</string>
+    <string name="no_email">لا يوجد بريد إلكتروني متاح</string>
+    <string name="no_location">لا يوجد موقع متاح</string>
+    <string name="no_website">لا يوجد موقع ويب متاح</string>
+
 
     <string name="ultraviolet_title">أولترا فيوليت</string>
     <string name="ultraviolet_description">"أولترا فيوليت" هو تجربة طعام فريدة من نوعها تحمل 3 نجوم ميشلان، حيث يعيد تعريف فن الطهو من خلال عرض متعدد الحواس. يقدم هذا المطعم الحصري:
@@ -231,6 +237,10 @@
     <string name="gardens">حدائق</string>
     <string name="tourist_places">أماكن سياحية</string>
 
+
+    <string name="main_title">السفر أصبح سهلاً!</string>
+    <string name="subtitle_text">سحنون نجوى\nتمورتبير نسرين\n\nاختبر أفضل مغامرة في شنغهاي، اكتشف حدائقها الرائعة، شوارعها النابضة بالحياة وثقافتها الغنية معنا. دع المدينة تفاجئك!</string>
+    <string name="start_button">لنبدأ!</string>
 
 
 

@@ -1,7 +1,7 @@
 
 
 <resources>
-    <string name="app_name" translatable="false">projet_DAM</string>
+    <string name="app_name" >Shang_Guide</string>
     <string name="change_language">en</string>
 
 
@@ -9,6 +9,14 @@
         <string name="phone">Phone</string>
         <string name="email">Email</string>
         <string name="website">Website</string>
+
+    <string name="no_name">No Name Available</string>
+    <string name="no_description">No Description Available</string>
+    <string name="no_phone">No Phone Available</string>
+    <string name="no_email">No Email Available</string>
+    <string name="no_location">No Location Available</string>
+    <string name="no_website">No Website Available</string>
+
 
 
 
@@ -233,6 +241,11 @@ Yi Cafe is a favorite among hotel guests and locals alike for its variety, quali
     <string name="hotels">Hotels</string>
     <string name="gardens">Gardens</string>
     <string name="tourist_places">Tourist Places</string>
+
+
+    <string name="main_title">Traveling made easy!</string>
+    <string name="subtitle_text">Sahnoune Nadjoua\nTamourtbir Nesrine\n\nExperience the best adventure in Shanghai, discover its stunning gardens, vibrant streets, and rich culture with us. Let the city surprise you!</string>
+    <string name="start_button">Let\'s go!</string>
 
 
 </resources>

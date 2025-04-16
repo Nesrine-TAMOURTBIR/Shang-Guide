@@ -5,37 +5,85 @@
     android:background="@drawable/background_image"
     android:padding="24dp">
 
+    <!-- App Title -->
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/app_name"
+        android:textColor="@color/primary_color"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
+    <!-- Main Title -->
     <TextView
         android:id="@+id/titleText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Traveling made easy!"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:textColor="@android:color/white"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="280dp"
-        android:layout_marginLeft="20dp"/>
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="450dp"
+        android:text="@string/main_title"
+        android:textColor="@color/primary_color"
+        android:textSize="28sp"
+        android:textStyle="bold" />
 
+    <!-- Subtitle -->
     <TextView
         android:id="@+id/subText"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sahnoune Nadjoua Tamourtbir Nesrine\n\nExperience the best adventure in Shanghai \ndiscover its stunning gardens,\n vibrant streets, and rich culture with us. \nLet the city surprise you!"
-        android:textColor="@android:color/white"
         android:layout_below="@id/titleText"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="8dp" />
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:lineSpacingExtra="4sp"
+        android:text="@string/subtitle_text"
+        android:textColor="@android:color/black"
+        android:textSize="17sp" />
 
+    <!-- Start Button -->
     <Button
         android:id="@+id/btnStart"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Let's go!"
-        android:backgroundTint="#FF6F61"
-        android:textColor="@android:color/white"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="32dp"/>
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@color/primary_color"
+        android:text="@string/start_button"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <!-- Language Switch -->
+    <LinearLayout
+        android:id="@+id/languageSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/iconLanguage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_language"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/textLanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/change_language"
+            android:textSize="16sp" />
+    </LinearLayout>
 </RelativeLayout>

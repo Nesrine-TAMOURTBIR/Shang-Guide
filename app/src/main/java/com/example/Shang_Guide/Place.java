@@ -1,4 +1,4 @@
-package com.example.projet_dam;
+package com.example.Shang_Guide;
 
 
 import java.util.ArrayList;
@@ -26,8 +26,6 @@ public class TouristPlace {
     public String getEmail() { return email; }
 }
 */
-
-import java.util.ArrayList;
 
 public class Place {
     private String name;

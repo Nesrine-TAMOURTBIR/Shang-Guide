@@ -1,22 +1,14 @@
-package com.example.projet_dam;
+package com.example.Shang_Guide;
 
 
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ArrayAdapter;
-import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
-import com.example.projet_dam.PlaceAdapter;
-import android.content.res.Resources;
-import android.widget.TextView;
-
-import com.example.projet_dam.R;
 
 
 public class RestaurantsActivity extends AppCompatActivity {
@@ -25,7 +17,7 @@ public class RestaurantsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tourist_places);
+        setContentView(R.layout.activity_list_places);
 
 
         LinearLayout languageSwitch = findViewById(R.id.language_switch);
@@ -193,47 +185,7 @@ public class RestaurantsActivity extends AppCompatActivity {
                 getResources().getString(R.string.songyuelou_address),
                 ""));
 
-        /*
 
-        // Display the places in a ListView
-        ArrayList<String> placeNames = new ArrayList<>();
-        for (Place place : placesList) {
-            placeNames.add(place.getName());
-        }
-
-        ListView listView = findViewById(R.id.listViewTouristPlaces);
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, placeNames);
-        listView.setAdapter(adapter);
-
-        // Handle clicks on list items
-        listView.setOnItemClickListener((parent, view, position, id) -> {
-            Place selectedPlace = placesList.get(position);
-
-            if (selectedPlace == null) {
-                System.out.println("Error: selectedPlace is null!");
-                return;
-            }
-
-            Intent intent = new Intent(RestaurantsActivity.this, DescriptionActivity.class);
-            intent.putExtra("name", selectedPlace.getName());
-            intent.putExtra("description", selectedPlace.getDescription());
-
-            // تأكد أن الصور ليست null
-            if (selectedPlace.getImageResourceIds() != null) {
-                intent.putIntegerArrayListExtra("images", selectedPlace.getImageResourceIds());
-            }
-
-            intent.putExtra("phone", selectedPlace.getPhone());
-            intent.putExtra("email", selectedPlace.getEmail());
-
-            startActivity(intent);
-        });
-
-    }
-}
-
-
-         */
 // Display the places in a ListView
         ListView listView = findViewById(R.id.listViewTouristPlaces);
         PlaceAdapter adapter = new PlaceAdapter(this, placesList);

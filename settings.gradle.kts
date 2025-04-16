@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "projet_DAM"
+rootProject.name = "Shang_Guide"
 include(":app")
  
